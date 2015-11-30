@@ -1,4 +1,4 @@
-package datastructures.trees;
+package datastructures.binarytree;
 
 public class MinimumDepthOfBinaryTree {
 	public int minDepth(TreeNode root) {

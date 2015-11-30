@@ -1,10 +1,10 @@
-package datastructures.trees;
+package datastructures.binarytree;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreePreorderTraversal {
-	public ArrayList<Integer> postorderTraversal(TreeNode root) {
+public class BinaryTreeInorderTraversal {
+	public ArrayList<Integer> preorderTraversal(TreeNode root) {
 		// write your code here
 		ArrayList<Integer> nodesList = new ArrayList<>();
 
@@ -17,8 +17,8 @@ public class BinaryTreePreorderTraversal {
 		if (root == null)
 			return;
 
+		nodesList.add(root.val);
 		traverse(root.left, nodesList);
 		traverse(root.right, nodesList);
-		nodesList.add(root.val);
 	}
 }
