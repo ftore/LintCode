@@ -1,4 +1,4 @@
-package ladders.usgiants.string;
+package algorithms.string;
 
 import java.util.HashMap;
 import java.util.Map;

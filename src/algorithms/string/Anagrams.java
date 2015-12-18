@@ -1,4 +1,4 @@
-package ladders.usgiants.string;
+package algorithms.string;
 
 import java.util.ArrayList;
 import java.util.Arrays;
